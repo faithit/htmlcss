@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="icon" href="static/images/facebook.png" type="image/png">
+</head>
+<body>
+<h2>Student registration form</h2>
+<form action="" >
+    <fieldset>
+        <legend>Personal information</legend>
+    <label for="fname">Fullname</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="pass"><br><br>
+    <label for="dob">Date of birth</label>
+    <input type="date" id="dob" name="dob"><br>
+
+    <label>Gender:</label><br>
+    <label for="f">Female</label>
+<!--    radio button-->
+    <input type="radio" value="female" id="f"  name="gender"><br>
+    <label for="m">male</label>
+    <input type="radio" value="male" id="m" name="gender"><br>
+</fieldset>
+        <!--checkbox-->
+<fieldset>
+    <legend>Academic Information</legend>
+    <label>interests:</label><br>
+    <label for="r">Reading</label>
+    <input type="checkbox" value="reading" id="r">
+    <label for="s">Sports</label>
+    <input type="checkbox" value="Sports" id="s">
+    <label for="prog">programming</label>
+    <input type="checkbox" value="programming" id="prog"><br>
+<!--select-->
+    <label for="course">Course</label>
+    <select  id="course" name="course">
+        <option value="web development">web development</option>
+        <option value="Cyber Security">Cyber Security</option>
+        <option value="Datascience">Datascience</option>
+        <option value="AI">Artificial Intelligence</option>
+    </select><br>
+    <textarea  cols="50" rows="10" placeholder="Tell us about yourself"></textarea><br>
+    <label for="file">Upload files</label>
+    <input type="file" id="file" accept=".jpg,.jpeg,.png"><br>
+</fieldset>
+    <button type="submit">Register</button>
+    <button type="reset">ClEAR FORM</button>
+
+
+
+
+</form>
+
+</body>
+</html>
